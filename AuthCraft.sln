@@ -1,0 +1,91 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Environment", "Environment", "{AE9D4875-256B-4C94-B93D-37D9046E804A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Dockerfile = Dockerfile
+		NuGet.Config = NuGet.Config
+		stylecop.ruleset = stylecop.ruleset
+		Ut.Dockerfile = Ut.Dockerfile
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C3587BFC-27D4-4768-B461-96D1D2B4A4D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthCraft.Api", "src\AuthCraft.Api\AuthCraft.Api.csproj", "{DB708C4C-920F-46CD-B486-095C70226449}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{178F091B-B3E4-42FA-AB72-30072DA8F66D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthCraft.Api.Test", "test\AuthCraft.Api.Test\AuthCraft.Api.Test.csproj", "{078C3D59-84B5-4AE3-BD62-10FBEACA2EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthCraft.Services", "src\AuthCraft.Services\AuthCraft.Services.csproj", "{49579433-947E-429C-9F2E-179842547C28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthCraft.Common", "src\AuthCraft.Common\AuthCraft.Common.csproj", "{03F09609-0607-44BA-A21D-82C581D02051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthCraft.Services.Test", "test\AuthCraft.Services.Test\AuthCraft.Services.Test.csproj", "{E06C7F27-8AB4-40C3-B692-7AF7DC2D1015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthCraft.Data", "src\AuthCraft.Data\AuthCraft.Data.csproj", "{BD0D9B1F-D59D-4724-9B45-8BD45D7D1A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthCraft.Data.Test", "test\AuthCraft.Data.Test\AuthCraft.Data.Test.csproj", "{8FBF33D4-016C-4087-9F4C-2519CE4726FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthCraft.Common.Test", "test\AuthCraft.Common.Test\AuthCraft.Common.Test.csproj", "{7BEBF882-787B-4DEA-88ED-337ACF7678D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB708C4C-920F-46CD-B486-095C70226449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB708C4C-920F-46CD-B486-095C70226449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB708C4C-920F-46CD-B486-095C70226449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB708C4C-920F-46CD-B486-095C70226449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{078C3D59-84B5-4AE3-BD62-10FBEACA2EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078C3D59-84B5-4AE3-BD62-10FBEACA2EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078C3D59-84B5-4AE3-BD62-10FBEACA2EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078C3D59-84B5-4AE3-BD62-10FBEACA2EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49579433-947E-429C-9F2E-179842547C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49579433-947E-429C-9F2E-179842547C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49579433-947E-429C-9F2E-179842547C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49579433-947E-429C-9F2E-179842547C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F09609-0607-44BA-A21D-82C581D02051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F09609-0607-44BA-A21D-82C581D02051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F09609-0607-44BA-A21D-82C581D02051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F09609-0607-44BA-A21D-82C581D02051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06C7F27-8AB4-40C3-B692-7AF7DC2D1015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06C7F27-8AB4-40C3-B692-7AF7DC2D1015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06C7F27-8AB4-40C3-B692-7AF7DC2D1015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06C7F27-8AB4-40C3-B692-7AF7DC2D1015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD0D9B1F-D59D-4724-9B45-8BD45D7D1A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0D9B1F-D59D-4724-9B45-8BD45D7D1A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0D9B1F-D59D-4724-9B45-8BD45D7D1A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0D9B1F-D59D-4724-9B45-8BD45D7D1A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FBF33D4-016C-4087-9F4C-2519CE4726FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FBF33D4-016C-4087-9F4C-2519CE4726FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FBF33D4-016C-4087-9F4C-2519CE4726FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FBF33D4-016C-4087-9F4C-2519CE4726FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BEBF882-787B-4DEA-88ED-337ACF7678D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BEBF882-787B-4DEA-88ED-337ACF7678D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BEBF882-787B-4DEA-88ED-337ACF7678D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BEBF882-787B-4DEA-88ED-337ACF7678D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB708C4C-920F-46CD-B486-095C70226449} = {C3587BFC-27D4-4768-B461-96D1D2B4A4D6}
+		{078C3D59-84B5-4AE3-BD62-10FBEACA2EE2} = {178F091B-B3E4-42FA-AB72-30072DA8F66D}
+		{49579433-947E-429C-9F2E-179842547C28} = {C3587BFC-27D4-4768-B461-96D1D2B4A4D6}
+		{03F09609-0607-44BA-A21D-82C581D02051} = {C3587BFC-27D4-4768-B461-96D1D2B4A4D6}
+		{E06C7F27-8AB4-40C3-B692-7AF7DC2D1015} = {178F091B-B3E4-42FA-AB72-30072DA8F66D}
+		{BD0D9B1F-D59D-4724-9B45-8BD45D7D1A8D} = {C3587BFC-27D4-4768-B461-96D1D2B4A4D6}
+		{8FBF33D4-016C-4087-9F4C-2519CE4726FB} = {178F091B-B3E4-42FA-AB72-30072DA8F66D}
+		{7BEBF882-787B-4DEA-88ED-337ACF7678D5} = {178F091B-B3E4-42FA-AB72-30072DA8F66D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AF36C4F-8ADA-4539-AE1E-382419F12852}
+	EndGlobalSection
+EndGlobal

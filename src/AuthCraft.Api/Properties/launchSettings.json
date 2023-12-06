@@ -1,0 +1,21 @@
+{
+  "profiles": {
+    "AuthCraft.Api": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "HOST_PORT": "5001",
+        "Environment__ApplicationRootUrl": "https://localhost:5001/",
+        "DYNAMODB_TABLE_PREFIX": "Dev",
+        "CONFIGURATION_URL": "https://localhost:5001/",
+        "AWS_REGION": "us-east-1",
+        "SYSTEM_ENV": "dev",
+        "SplunkLabel": "authcraft",
+        "SIGNALFX_LOGS_INJECTION": "true",
+        "HOSTLABEL": "Local-Dev"
+      },
+      "applicationUrl": "https://localhost:5001/"
+    }
+  }
+}
