@@ -1,7 +1,7 @@
 using AuthCraft.Api.Health;
-using AuthCraft.App.Services;
 using AuthCraft.Common.Infrastructure.Aws;
 using AuthCraft.Common.ServiceInterfaces;
+using AuthCraft.Services;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace AuthCraft.Api;

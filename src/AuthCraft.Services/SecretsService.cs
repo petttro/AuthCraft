@@ -2,19 +2,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Amazon.SecretsManager.Extensions.Caching;
-using Amazon.SecretsManager;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Newtonsoft.Json;
 using Amazon.Runtime;
+using Amazon.SecretsManager;
+using Amazon.SecretsManager.Extensions.Caching;
 using AuthCraft.Common.Config;
 using AuthCraft.Common.DomainObjects;
 using AuthCraft.Common.Exceptions;
-using AuthCraft.Common.Infrastructure.Aws;
 using AuthCraft.Common.Extensions;
+using AuthCraft.Common.Infrastructure.Aws;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
 
-namespace AuthCraft.App.Services;
+namespace AuthCraft.Services;
 
 public class SecretsService : ISecretsService, IDisposable
 {

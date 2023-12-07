@@ -2,15 +2,15 @@
 using System.Threading.Tasks;
 using AuthCraft.Common;
 using AuthCraft.Common.Exceptions;
+using AuthCraft.Common.Extensions;
 using AuthCraft.Common.ServiceInterfaces;
 using AuthCraft.Data.Dto.ConfigCrest;
 using AuthCraft.Data.HttpClients;
 using Microsoft.Extensions.Logging;
-using AuthCraft.Common.Extensions;
 using Polly;
 using Polly.Registry;
 
-namespace AuthCraft.App.Services;
+namespace AuthCraft.Services;
 
 public class ConfigCrestConfigurationService : IConfigCrestConfigurationService
 {

@@ -1,7 +1,6 @@
 using System;
 using System.Threading.Tasks;
 using Amazon.SecretsManager;
-using AuthCraft.App.Services;
 using AuthCraft.Common.Config;
 using AuthCraft.Common.DomainObjects;
 using AuthCraft.Common.Exceptions;

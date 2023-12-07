@@ -2,11 +2,11 @@ using System;
 using System.Threading.Tasks;
 using AuthCraft.Common.DomainObjects;
 using AuthCraft.Common.Exceptions;
+using AuthCraft.Common.Extensions;
 using AuthCraft.Common.ServiceInterfaces;
 using Microsoft.Extensions.Logging;
-using AuthCraft.Common.Extensions;
 
-namespace AuthCraft.App.Services;
+namespace AuthCraft.Services;
 
 public class ClientAuthenticationService : IClientAuthenticationService
 {

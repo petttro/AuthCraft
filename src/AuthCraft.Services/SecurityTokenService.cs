@@ -11,7 +11,7 @@ using AuthCraft.Common.ServiceInterfaces;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 
-namespace AuthCraft.App.Services;
+namespace AuthCraft.Services;
 
 // This class should be always registered as singleton to avoid multiple RSA object creation
 public class SecurityTokenService : ISecurityTokenService

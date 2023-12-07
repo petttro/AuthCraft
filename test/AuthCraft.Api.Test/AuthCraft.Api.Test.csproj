@@ -24,10 +24,4 @@
     <ProjectReference Include="..\..\src\AuthCraft.Api\AuthCraft.Api.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Extensions" />
-    <Folder Include="Logging" />
-    <Folder Include="Models" />
-  </ItemGroup>
-
 </Project>

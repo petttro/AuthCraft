@@ -1,8 +1,8 @@
 ﻿using System;
-using AuthCraft.App.Services;
 using AuthCraft.Common;
 using AuthCraft.Data.Dto.ConfigCrest;
 using AuthCraft.Data.HttpClients;
+using AuthCraft.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Polly;

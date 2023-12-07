@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Threading.Tasks;
-using AuthCraft.App.Services;
 using AuthCraft.Common.DomainObjects;
 using AuthCraft.Common.Infrastructure.Aws;
 using Microsoft.Extensions.Logging.Abstractions;

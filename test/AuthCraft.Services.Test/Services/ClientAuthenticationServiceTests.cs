@@ -1,6 +1,5 @@
 using System;
 using System.Threading.Tasks;
-using AuthCraft.App.Services;
 using AuthCraft.Common.DomainObjects;
 using AuthCraft.Common.Exceptions;
 using AuthCraft.Common.ServiceInterfaces;
